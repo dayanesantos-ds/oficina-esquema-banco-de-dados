@@ -1,6 +1,6 @@
 ## 📊 Projeto de Modelagem Conceitual de Banco de Dados para Oficina Mecânica
 
-Desenvolvido como parte de um desafio da DIO de modelagem de banco de dados, cujo objetivo é construir um esquema conceitual para um sistema de gestão de execução de ordens de serviço em uma oficina mecânica.
+Desenvolvido como parte de um desafio da DIO de modelagem de banco de dados, cujo objetivo foi construir um esquema conceitual para um sistema de gestão de execução de ordens de serviço em uma oficina mecânica.
 O modelo foi criado com base na narrativa fornecida no desafio, identificando entidades, atributos e relacionamentos essenciais para o funcionamento do sistema.
 
 ## 🖼️ Diagrama Conceitual
@@ -8,7 +8,7 @@ O modelo foi criado com base na narrativa fornecida no desafio, identificando en
 
 
 ### 🎯 Objetivo do Projeto
-Criar o modelo conceitual de um sistema responsável por:
+Criar um modelo conceitual de um sistema responsável por:
 
 Registrar ordens de serviço (OS)
 
@@ -71,7 +71,7 @@ Cada mecânico pertence a uma ou mais equipes.
 Uma equipe executa os serviços de uma OS.
 
 🧩 Equipe_has_Mecânico
-Tabela associativa para relacionamento N:N entre mecânicos e equipes.
+Tabela associativa para relacionamento N:M entre mecânicos e equipes.
 
 🪛 Serviço
 Tabela de referência para os tipos de serviço (ex.: revisão, conserto, diagnóstico), incluindo valor de mão de obra.
