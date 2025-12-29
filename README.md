@@ -4,6 +4,7 @@ Desenvolvido como parte de um desafio da DIO de modelagem de banco de dados, cuj
 O modelo foi criado com base na narrativa fornecida no desafio, identificando entidades, atributos e relacionamentos essenciais para o funcionamento do sistema.
 
 ## 🖼️ Diagrama Conceitual
+![Página 1](https://github.com/dayanesantos-ds/oficina-esquema-banco-de-dados/blob/main/imagens/diagrama-oficina.png)
 
 
 ### 🎯 Objetivo do Projeto
