@@ -89,9 +89,9 @@ Tabela associativa que registra as peças utilizadas em cada OS.
 Cliente 1:N Veículo
 Veículo 1:N Ordem de Serviço
 Equipe 1:N Ordem de Serviço
-Equipe N:M Mecânico (via tabela associativa)
-Ordem de Serviço N:M Serviço (via OS_has_Serviço)
-Ordem de Serviço N:M Peça (via OS_has_Peça)
+Equipe N:N Mecânico (via tabela associativa)
+Ordem de Serviço N:N Serviço (via OS_has_Serviço)
+Ordem de Serviço N:N Peça (via OS_has_Peça)
 
 🧮 Regras de Cálculo
 O valor total da OS será composto pela Soma dos (Serviços executados) + a Soma de (Peças utilizadas)
